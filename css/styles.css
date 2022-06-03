@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* FIRST MOBILE */
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.card__conteiner{
+    width: 300px;
+    height: 500px; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    border: 1px solid hsl(212, 45%, 89%);
+    border-radius: 25px 25px 25px 25px;
+}
+.card__header {
+    text-align: center;
+}
+.card__qr {
+    width: 270px;
+    height: 270px;
+    border-radius: 10px 10px 10px 10px;
+}
+.card__title {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 1.4rem;
+}
+.card__text {
+    color: hsl(210, 2%, 43%);
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;	
+    font-size: 1rem;
+}
+
+/* RESPONSIVE DESKTOP */
+
+.wrapper {
+    justify-content: space-around;
+}
